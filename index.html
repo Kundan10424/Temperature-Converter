@@ -14,9 +14,12 @@
         <h2>Current Temperature</h2>
         <p id="location">Fetching location...</p>
         <p id="currentTemp">Fetching temperature...</p>
+        <input type="text" id="locationInput" placeholder="Enter city or location">
+        <button type="button" onclick="changeLocation()">Update Location</button>
+        <p id="locationUpdateResult"></p>
     </div>
 
-    <form action="">
+    <form id="tempConversionForm">
         <h1>Temperature Conversion</h1>
         <input type="number" id="textBox" value="0">
         <br>
@@ -29,7 +32,7 @@
             <label for="toCelsius">Fahrenheit ➡ Celsius</label>
         </div>
         <br>
-        <button type="submit" onclick="convert(event)">Submit</button>
+        <button type="submit">Submit</button>
         <p id="result"></p>
     </form>
 
