@@ -11,7 +11,7 @@ body {
     position: relative;
 }
 
-h1{
+h1 {
     color: #1a73e8;
 }
 
@@ -39,6 +39,11 @@ h1{
     margin: 5px 0;
 }
 
+#locationInput {
+    height: 20px;
+    border-radius: 10px;
+}
+
 form {
     background-color: rgba(249, 249, 249, 0.85);
     text-align: center;
@@ -59,7 +64,6 @@ form {
     box-shadow: inset 5px 5px 10px #c1c4c9, inset -5px -5px 10px #ffffff;
     margin-bottom: 30px;
     outline: none;
-    
 }
 
 .radio-container {
